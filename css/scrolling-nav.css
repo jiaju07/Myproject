@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@font-face{
+	font-family:"Arita-Medium";
+	src:url('../fonts/Arita-Medium.eot');
+	src:url('../fonts/Arita-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Arita-Medium.woff') format('woff'),
+	url('../fonts/Arita-Medium.ttf') format('truetype');
+	src:local(※), url('../fonts/Arita-Medium.woff') format('woff');
+}
+
+body { 
+	font-family: "Arita-Medium", sans-serif; 
+	color: black; 
+	height: 100%; 
+	overflow-x: hidden; 
+	margin: 0; 
+	min-width: 400px;
+}
+
+header {
+	background-color: #fcc800; 
+    padding: 90px 0;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 92px 0;
+  }
+}
+
+section {
+    padding: 150px 0;
+}
+
+nav { 
+	background-color: #fcc800; 
+	color: white; 
+	height: 70px;
+}
+.nav-item a {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.home-main { 
+	box-sizing: inherit; 
+	letter-spacing: 3px; 
+	height: 100%; 
+	padding: 5%; 
+	display: flex; 
+	align-items: center; 
+}
+.home-app, .home-content { 
+	width: 50%; 
+	float: left; 
+	margin:0 auto; 
+	text-align: center; 
+	flex: 1; 
+}
+@media (max-width: 767px) {
+	.home-app, .home-content {
+		width: 100%;
+		float: none;
+	}
+}
+#app-img {
+	width: 300px;
+}
+.home-content p {
+	font-weight: bolder;
+	font-size: 35px;
+}
+div.play-store { 
+	float: left; 
+	width: 50%; 
+	margin:0 auto; 
+}
+.play-store img { 
+	width: 150px; 
+}
+.intro-main { 
+	background-color: #4d4001; 
+	display: table; 
+	width: 100%; 
+	color: #fcc800; 
+	padding: 30px 5%; 
+}
+.main-header p { 
+	color: white; 
+	font-size: 35px; 
+	font-weight: bolder; 
+	text-align: left; 
+	padding:0 0 30px 0; 
+}
+.intro-main .main-header p {
+	padding: 0;
+}
+.intro-content { 
+	float: left; 
+	width: 25%; 
+	text-align: center; 
+}
+.intro-content img { 
+	width: 100px; 
+	padding-bottom: 20px;
+}
+.intro-content-header { 
+	font-weight: bold; 
+	font-size: 25px; 
+}
+.intro-content-content { 
+	font-size:20px; 
+	letter-spacing: 3px; 
+	padding:0 10px; 
+}
+#map-canvas, #panel { 
+	height: 500px; 
+}
+#panel { 
+	width: 30%; 
+	float: right; 
+	margin-left: 10px;
+	background-color: white; 
+}
+#panel .feature-filter label { 
+	width: 130px; 
+}
+p.attribution, p.attribution a { 
+	color: #666; 
+}
+.store .hours { 
+	color: grey; 
+}
+.zone-main {
+	background-color: #fcc800; 
+	display: table; 
+	width: 100%; 
+	color: #4d4001; 
+	padding: 30px 5%;
+}
+.how-main {
+	background-color: #4d4001; 
+	display: table; 
+	width: 100%; 
+	color: #fcc800; 
+	padding: 30px 5%;
+}
+hr.line {
+	border: 1px solid grey;
+}
+.how-content { 
+	text-align: center;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+	box-sizing: inherit; 
+	display: flex; 
+	align-items: center;
+}
+.slide-content {
+	width: 50%;
+	flex: 1;
+	text-align: center;
+}

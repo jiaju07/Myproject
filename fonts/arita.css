@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Arita';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Arita-Medium.eot');
+  src: url('./Arita-Medium.eot?#iefix') format('embedded-opentype'),
+       url('./Arita-Medium.woff') format('woff'),
+       url('./Arita-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Arita';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Arita-SemiBold.eot');
+  src: url('./Arita-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('./Arita-SemiBold.woff') format('woff'),
+       url('./Arita-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Arita';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Arita-Bold.eot');
+  src: url('./Arita-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./Arita-Bold.woff') format('woff'),
+       url('./Arita-Bold.ttf') format('truetype');
+}
